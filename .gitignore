@@ -1,0 +1,43 @@
+# Environment Variables (IMPORTANT: Never commit these!)
+.env
+backend/.env
+frontend/.env
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+backend/venv/
+ENV/
+env/
+*.egg-info/
+.pytest_cache/
+*.db
+*.sqlite3
+db.sqlite3
+
+# Node
+node_modules/
+dist/
+.pnpm-store/
+.vite/
+*.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Documentation with secrets
+OAUTH_STATUS.md
+GOOGLE_OAUTH_SETUP.md
+setup-oauth.sh

@@ -21,10 +21,13 @@ db.sqlite3
 
 # Node
 node_modules/
+frontend/node_modules/
 dist/
 .pnpm-store/
 .vite/
 *.log
+package-lock.json
+pnpm-lock.yaml
 
 # IDE
 .vscode/
